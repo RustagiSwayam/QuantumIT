@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3A343A42BFC72110083595C /* QuantumITApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A343A32BFC72110083595C /* QuantumITApp.swift */; };
+		D3A343A62BFC72110083595C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A343A52BFC72110083595C /* ContentView.swift */; };
+		D3A343A82BFC72130083595C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A343A72BFC72130083595C /* Assets.xcassets */; };
+		D3A343AB2BFC72130083595C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A343AA2BFC72130083595C /* Preview Assets.xcassets */; };
+		D3A343AD2BFC72130083595C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A343AC2BFC72130083595C /* Persistence.swift */; };
+		D3A343B02BFC72130083595C /* QuantumIT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3A343AE2BFC72130083595C /* QuantumIT.xcdatamodeld */; };
+		D3A343BB2BFC73060083595C /* BannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A343BA2BFC73060083595C /* BannerModel.swift */; };
+		D3A343BD2BFC73160083595C /* BannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A343BC2BFC73160083595C /* BannerViewModel.swift */; };
+		D3A343C12BFC73A30083595C /* BannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A343C02BFC73A30083595C /* BannerService.swift */; };
+		D3A343C52BFC78EB0083595C /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A343C42BFC78EB0083595C /* AnalyticsView.swift */; };
+		D3A343C82BFC80140083595C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D3A343C72BFC80140083595C /* Kingfisher */; };
+		D3A343CC2BFC82D30083595C /* RectangularButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A343CB2BFC82D30083595C /* RectangularButtons.swift */; };
+		D3A343CE2BFC84810083595C /* CircularButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A343CD2BFC84810083595C /* CircularButtons.swift */; };
+		D3A343D02BFC8AA40083595C /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A343CF2BFC8AA40083595C /* TabView.swift */; };
+		D3A343D32BFC8AD70083595C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A343D22BFC8AD70083595C /* HomeView.swift */; };
+		D3A343D52BFC8AE70083595C /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A343D42BFC8AE70083595C /* WorkoutView.swift */; };
+		D3A343D82BFC8AFD0083595C /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A343D72BFC8AFD0083595C /* FoodView.swift */; };
+		D3A343DB2BFC8C360083595C /* BodyStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A343DA2BFC8C360083595C /* BodyStatsView.swift */; };
+		D3A343DD2BFC8C4E0083595C /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A343DC2BFC8C4E0083595C /* ChartsView.swift */; };
+		D3A343DF2BFC8C630083595C /* ReferalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A343DE2BFC8C630083595C /* ReferalView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3A343A02BFC72110083595C /* QuantumIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuantumIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A343A32BFC72110083595C /* QuantumITApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumITApp.swift; sourceTree = "<group>"; };
+		D3A343A52BFC72110083595C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3A343A72BFC72130083595C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3A343AA2BFC72130083595C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3A343AC2BFC72130083595C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D3A343AF2BFC72130083595C /* QuantumIT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuantumIT.xcdatamodel; sourceTree = "<group>"; };
+		D3A343BA2BFC73060083595C /* BannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerModel.swift; sourceTree = "<group>"; };
+		D3A343BC2BFC73160083595C /* BannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewModel.swift; sourceTree = "<group>"; };
+		D3A343C02BFC73A30083595C /* BannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerService.swift; sourceTree = "<group>"; };
+		D3A343C42BFC78EB0083595C /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		D3A343CB2BFC82D30083595C /* RectangularButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularButtons.swift; sourceTree = "<group>"; };
+		D3A343CD2BFC84810083595C /* CircularButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButtons.swift; sourceTree = "<group>"; };
+		D3A343CF2BFC8AA40083595C /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		D3A343D22BFC8AD70083595C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D3A343D42BFC8AE70083595C /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		D3A343D72BFC8AFD0083595C /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
+		D3A343DA2BFC8C360083595C /* BodyStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyStatsView.swift; sourceTree = "<group>"; };
+		D3A343DC2BFC8C4E0083595C /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		D3A343DE2BFC8C630083595C /* ReferalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferalView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3A3439D2BFC72110083595C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A343C82BFC80140083595C /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3A343972BFC72110083595C = {
+			isa = PBXGroup;
+			children = (
+				D3A343A22BFC72110083595C /* QuantumIT */,
+				D3A343A12BFC72110083595C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3A343A12BFC72110083595C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3A343A02BFC72110083595C /* QuantumIT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3A343A22BFC72110083595C /* QuantumIT */ = {
+			isa = PBXGroup;
+			children = (
+				D3A343C92BFC82880083595C /* Components */,
+				D3A343BF2BFC73920083595C /* Service */,
+				D3A343B92BFC72720083595C /* Views */,
+				D3A343B82BFC726B0083595C /* ViewModel */,
+				D3A343B72BFC72660083595C /* Model */,
+				D3A343B62BFC725C0083595C /* Core */,
+				D3A343A72BFC72130083595C /* Assets.xcassets */,
+				D3A343AC2BFC72130083595C /* Persistence.swift */,
+				D3A343AE2BFC72130083595C /* QuantumIT.xcdatamodeld */,
+				D3A343A92BFC72130083595C /* Preview Content */,
+			);
+			path = QuantumIT;
+			sourceTree = "<group>";
+		};
+		D3A343A92BFC72130083595C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3A343AA2BFC72130083595C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3A343B62BFC725C0083595C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D3A343A52BFC72110083595C /* ContentView.swift */,
+				D3A343A32BFC72110083595C /* QuantumITApp.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D3A343B72BFC72660083595C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3A343BA2BFC73060083595C /* BannerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3A343B82BFC726B0083595C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D3A343BC2BFC73160083595C /* BannerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D3A343B92BFC72720083595C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3A343D92BFC8C1F0083595C /* SubViews */,
+				D3A343D12BFC8ABD0083595C /* MainViews */,
+				D3A343BE2BFC731E0083595C /* BottomNavBar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3A343BE2BFC731E0083595C /* BottomNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				D3A343CF2BFC8AA40083595C /* TabView.swift */,
+			);
+			path = BottomNavBar;
+			sourceTree = "<group>";
+		};
+		D3A343BF2BFC73920083595C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D3A343C02BFC73A30083595C /* BannerService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D3A343C92BFC82880083595C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D3A343CB2BFC82D30083595C /* RectangularButtons.swift */,
+				D3A343CD2BFC84810083595C /* CircularButtons.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D3A343D12BFC8ABD0083595C /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				D3A343C42BFC78EB0083595C /* AnalyticsView.swift */,
+				D3A343D22BFC8AD70083595C /* HomeView.swift */,
+				D3A343D42BFC8AE70083595C /* WorkoutView.swift */,
+				D3A343D72BFC8AFD0083595C /* FoodView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		D3A343D92BFC8C1F0083595C /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				D3A343DA2BFC8C360083595C /* BodyStatsView.swift */,
+				D3A343DC2BFC8C4E0083595C /* ChartsView.swift */,
+				D3A343DE2BFC8C630083595C /* ReferalView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3A3439F2BFC72110083595C /* QuantumIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3A343B32BFC72130083595C /* Build configuration list for PBXNativeTarget "QuantumIT" */;
+			buildPhases = (
+				D3A3439C2BFC72110083595C /* Sources */,
+				D3A3439D2BFC72110083595C /* Frameworks */,
+				D3A3439E2BFC72110083595C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuantumIT;
+			packageProductDependencies = (
+				D3A343C72BFC80140083595C /* Kingfisher */,
+			);
+			productName = QuantumIT;
+			productReference = D3A343A02BFC72110083595C /* QuantumIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3A343982BFC72110083595C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D3A3439F2BFC72110083595C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = D3A3439B2BFC72110083595C /* Build configuration list for PBXProject "QuantumIT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3A343972BFC72110083595C;
+			packageReferences = (
+				D3A343C62BFC80140083595C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = D3A343A12BFC72110083595C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3A3439F2BFC72110083595C /* QuantumIT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3A3439E2BFC72110083595C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A343AB2BFC72130083595C /* Preview Assets.xcassets in Resources */,
+				D3A343A82BFC72130083595C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3A3439C2BFC72110083595C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A343D02BFC8AA40083595C /* TabView.swift in Sources */,
+				D3A343CE2BFC84810083595C /* CircularButtons.swift in Sources */,
+				D3A343D82BFC8AFD0083595C /* FoodView.swift in Sources */,
+				D3A343D52BFC8AE70083595C /* WorkoutView.swift in Sources */,
+				D3A343AD2BFC72130083595C /* Persistence.swift in Sources */,
+				D3A343C52BFC78EB0083595C /* AnalyticsView.swift in Sources */,
+				D3A343A62BFC72110083595C /* ContentView.swift in Sources */,
+				D3A343BD2BFC73160083595C /* BannerViewModel.swift in Sources */,
+				D3A343C12BFC73A30083595C /* BannerService.swift in Sources */,
+				D3A343DB2BFC8C360083595C /* BodyStatsView.swift in Sources */,
+				D3A343CC2BFC82D30083595C /* RectangularButtons.swift in Sources */,
+				D3A343DD2BFC8C4E0083595C /* ChartsView.swift in Sources */,
+				D3A343DF2BFC8C630083595C /* ReferalView.swift in Sources */,
+				D3A343B02BFC72130083595C /* QuantumIT.xcdatamodeld in Sources */,
+				D3A343D32BFC8AD70083595C /* HomeView.swift in Sources */,
+				D3A343A42BFC72110083595C /* QuantumITApp.swift in Sources */,
+				D3A343BB2BFC73060083595C /* BannerModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D3A343B12BFC72130083595C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3A343B22BFC72130083595C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3A343B42BFC72130083595C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuantumIT/Preview Content\"";
+				DEVELOPMENT_TEAM = 38NJH765N5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwayamRustagi.QuantumIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3A343B52BFC72130083595C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuantumIT/Preview Content\"";
+				DEVELOPMENT_TEAM = 38NJH765N5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwayamRustagi.QuantumIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3A3439B2BFC72110083595C /* Build configuration list for PBXProject "QuantumIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A343B12BFC72130083595C /* Debug */,
+				D3A343B22BFC72130083595C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3A343B32BFC72130083595C /* Build configuration list for PBXNativeTarget "QuantumIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A343B42BFC72130083595C /* Debug */,
+				D3A343B52BFC72130083595C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D3A343C62BFC80140083595C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D3A343C72BFC80140083595C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3A343C62BFC80140083595C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		D3A343AE2BFC72130083595C /* QuantumIT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D3A343AF2BFC72130083595C /* QuantumIT.xcdatamodel */,
+			);
+			currentVersion = D3A343AF2BFC72130083595C /* QuantumIT.xcdatamodel */;
+			path = QuantumIT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D3A343982BFC72110083595C /* Project object */;
+}
